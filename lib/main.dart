@@ -4,7 +4,6 @@ void main() => runApp(MaterialApp(
       home: Home(),
     ));
 
-
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -15,12 +14,15 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.orange[600],
       ),
       body: Center(
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.blue,
-          size: 150.0,
-        ),
-        ),
+          child: RaisedButton.icon(
+            onPressed: () {},
+            icon: Icon(
+              Icons.mail,
+            ),
+            label: Text('Mail Me'),
+            color: Colors.amber,
+          ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text(
@@ -31,5 +33,3 @@ class Home extends StatelessWidget {
     );
   }
 }
-
-
