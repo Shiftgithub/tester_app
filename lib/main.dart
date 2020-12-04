@@ -15,24 +15,12 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.orange[600],
       ),
       body: Center(
-        child: Text(
-          'Hello Tester',
-          style: TextStyle(
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'indieFlower',
-          ),
+        child: Image.asset('assets/space-1.jpg'),
         ),
-      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text(
-          'click Me',
-          style: TextStyle(
-            fontSize: 15.0,
-          ),
+          'click',
         ),
         backgroundColor: Colors.orange[600],
       ),
