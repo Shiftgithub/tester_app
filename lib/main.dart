@@ -15,12 +15,13 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.orange[600],
       ),
       body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           Text('Hello , Testers'),
           FlatButton(
-              onPressed: () {},
-              color: Colors.amber,
-              child: Text('Ye Dania'),
+            onPressed: () {},
+            color: Colors.amber,
+            child: Text('Ye Dania'),
           ),
           Container(
             padding: EdgeInsets.all(30.0),
