@@ -25,15 +25,20 @@ class Home extends StatelessWidget {
             ],
           ),
           Container(
-            padding: EdgeInsets.all(20.0),
-            color: Colors.cyan[600],
-            child: Text('Column 1'),
+            child: Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: Container(
+                padding: EdgeInsets.all(20.0),
+                color: Colors.cyan[600],
+                child: Text('Column 1'),
+              ),
+            ),
           ),
-          Container(
-            padding: EdgeInsets.all(30.0),
-            color: Colors.green[600],
-            child: Text('Column 2'),
-          ),
+           Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.green[600],
+              child: Text('Column 2'),
+            ),
           Container(
             padding: EdgeInsets.all(40.0),
             color: Colors.yellow[600],
