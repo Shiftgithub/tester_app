@@ -20,8 +20,16 @@ class Home extends StatelessWidget {
         children: <Widget>[
           Row(
             children: <Widget>[
-              Text(' Hello '),
-              Text('World'),
+              Text.rich(
+                TextSpan(
+                  children: <TextSpan>[
+                    TextSpan(text: "Hello Dunia ", style:
+                    TextStyle(fontStyle: FontStyle.italic)),
+                    TextSpan(text: "World", style:
+                    TextStyle(fontWeight: FontWeight.bold)),
+                  ],
+                )
+              )
             ],
           ),
           Container(
